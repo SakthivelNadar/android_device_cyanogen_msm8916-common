@@ -68,6 +68,9 @@ TARGET_PROCESS_SDK_VERSION_OVERRIDE := \
 # DexPreopt debug info
 WITH_DEXPREOPT_DEBUG_INFO := false
 
+# DRM
+TARGET_ENABLE_MEDIADRM_64 := true
+
 # Dexpreopt
 ifeq ($(HOST_OS),linux)
 ifneq ($(TARGET_BUILD_VARIANT),eng)
